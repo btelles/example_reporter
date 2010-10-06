@@ -1,0 +1,3 @@
+[submodule "vendor/plugins/reporter"]
+	path = vendor/plugins/reporter
+	url = git@github.com:btelles/reporter.git
