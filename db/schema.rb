@@ -15,6 +15,8 @@ ActiveRecord::Schema.define(:version => 20100804192818) do
   create_table "reports", :force => true do |t|
     t.string   "name"
     t.string   "description"
+    t.string   "code"
+    t.string   "columns"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
