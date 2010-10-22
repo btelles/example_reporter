@@ -27,12 +27,14 @@ gem 'decent_exposure', '~> 1.0.0.rc1'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 group :development, :test do 
-  gem 'rspec', '2.0.0.rc'
-  gem 'rspec-rails', '2.0.0.rc'
+  gem 'ruby-debug'
+  gem 'rspec'
+  gem 'rspec-rails'
   gem 'cucumber'
   gem 'cucumber-rails'
   gem 'nokogiri'
   gem 'capybara'
+  gem 'webrat'
   gem 'machinist'
 end
 # Bundle gems for the local environment. Make sure to

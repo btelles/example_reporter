@@ -12,11 +12,17 @@
 
 ActiveRecord::Schema.define(:version => 20100804192818) do
 
+  create_table "people", :force => true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.date     "date_of_birth"
+  end
+
   create_table "reports", :force => true do |t|
     t.string   "name"
     t.string   "description"
     t.string   "code"
-    t.string   "columns"
+    t.string   "used_columns"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
